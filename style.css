@@ -107,6 +107,8 @@ button {
     border-style: none;
 }
 
+/* Form */
+
 .forms {
 	text-align: center;
 }
@@ -137,10 +139,6 @@ fieldset {
 	margin-top: -10px;
 }
 
-.icon {
-	margin-bottom: 20px;
-}
-
 .rem {
 	margin-left: -50px;
 }
@@ -150,3 +148,10 @@ fieldset {
 	margin-bottom: 20px;
 	text-align: center;
 }
+
+/* Icon */
+
+.icon {
+	margin-bottom: 20px;
+}
+
