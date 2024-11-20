@@ -1,0 +1,152 @@
+/* Background */
+
+body {
+  background-image: url(https://images.pexels.com/photos/1695052/pexels-photo-1695052.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  font-family: sans-serif;
+  padding: 20px;
+  background-size: cover;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Content */
+
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+
+h1, h2, p, h3 {
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: Impact, serif;
+}
+
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.flavor, .dessert {
+  text-align: left;
+  width: 75%;
+}
+
+.price {
+  text-align: right;
+  width: 25%;
+}
+
+/* Main Box */
+
+.main {
+  width: 80%;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 20px;
+}
+
+/* Horizontal Line */
+
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 14px;
+  text-align: center;
+  margin: 20px;
+  margin-top: 30px;
+}
+
+a:visited {
+  color: black;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:active {
+  color: brown;
+}
+
+button {
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    box-shadow: 0 4px 12px #aaaaaacc;
+    border-radius: 5px;
+    cursor: pointer;
+    border-style: none;
+}
+
+.forms {
+	text-align: center;
+}
+
+input {
+	margin: 10px;
+}
+
+.quantity {
+	margin-left: 30px;
+	width: 40px;
+}
+
+fieldset {
+	margin: 40px 20px;
+	border-color: brown;
+	border-radius: 10px;
+	border-width: 5px;
+}
+
+#first {
+	margin-top: 25px;
+}
+
+.payment {
+	text-align: center;
+	margin-bottom: 25px;
+	margin-top: -10px;
+}
+
+.icon {
+	margin-bottom: 20px;
+}
+
+.rem {
+	margin-left: -50px;
+}
+
+.bt {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+}

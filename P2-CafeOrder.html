@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="P2-CafeMenu.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cafe Order</title>
+</head>
+<body>
+	<div class="main">
+		<main>
+
+			<!--Header-->
+
+			<h1>SEC CAFE</h1>
+			<p class="est">Est. 2020</p>
+			<hr>
+
+			<!-- Order Form-->
+
+			<form action="P2.Thanks.html">
+
+				<!--Coffee Field-->
+
+				<fieldset class="c-field">
+					<legend><strong>Need a pick-me-up?</strong></legend>
+					<label>
+						<input type="checkbox" name="chococoffee" id="first">Chocolate Coffee
+						<input class="quantity" id="id_form-0-quantity" min="0" name="form-0-quantity" value="0" type="number">
+					</label><br>
+					<label>
+						<input type="checkbox" name="masalacoffee">Masala Coffee   
+						<input class="quantity" id="id_form-0-quantity" min="0" name="form-0-quantity" value="0" type="number">
+					</label><br>
+					<label>
+						<input type="checkbox" name="filtercoffee">Filter Coffee
+						<input class="quantity" id="id_form-0-quantity" min="0" name="form-0-quantity" value="0" type="number">
+					</label><br>
+					<label>
+						<input type="checkbox" name="coldcoffee">Cold Coffee
+						<input class="quantity" id="id_form-0-quantity" min="0" name="form-0-quantity" value="0" type="number">
+					</label><br>
+					<label>
+						<input type="checkbox" name="vanillacoffee">Vanilla Coffee
+						<input class="quantity" id="id_form-0-quantity" min="0" name="form-0-quantity" value="0" type="number">
+					</label><br>
+				</fieldset>
+
+				<!--Dessert Field-->
+
+				<fieldset class="d-field">
+					<legend><strong>Ready to Sweeten your day?</strong></legend>
+					<label>
+						<input type="checkbox" name="brownie" id="first">Brownie
+						<input class="quantity" id="id_form-0-quantity" min="0" name="form-0-quantity" value="0" type="number">
+					</label><br>
+					<label>
+						<input type="checkbox" name="choaolava">Chocolate Lava
+						<input class="quantity" id="id_form-0-quantity" min="0" name="form-0-quantity" value="0" type="number">
+					</label><br>
+					<label>
+						<input type="checkbox" name="c-cake">Chesse Cake
+						<input class="quantity" id="id_form-0-quantity" min="0" name="form-0-quantity" value="0" type="number">
+					</label><br>
+					<label>
+						<input type="checkbox" name="falooda">Falooda
+						<input class="quantity" id="id_form-0-quantity" min="0" name="form-0-quantity" value="0" type="number">
+					</label><br>
+				</fieldset>
+
+				<!--Payment Method-->
+
+			<section class="payment">
+				<label>
+					<input type="radio" name="pay" required>G-pay
+				</label>
+				<label>
+					<input type="radio" name="pay" required>Cash
+				</label>
+			</section><hr>
+
+			<!--Order Button-->
+
+			<div class="bt"><button type="submit"><a href="P2-CafeOrder.html" style="color: whitesmoke;"><strong>Order</strong></a></button></div>
+		</form>	<!--End of Form-->
+
+		</main>
+	</div>
+</body>
+</html>
