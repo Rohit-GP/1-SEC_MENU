@@ -109,13 +109,8 @@ button {
 
 /* Form */
 
-.forms {
-	text-align: center;
-}
-
 input {
 	margin: 10px;
-	
 }
 
 .quantity {
@@ -141,7 +136,12 @@ fieldset {
 }
 
 .rem {
-	margin-left: -50px;
+	font-size: 15px;
+}
+
+.rem a {
+	margin-left: 30px;
+	color: blue;
 }
 
 .bt {
@@ -150,9 +150,20 @@ fieldset {
 	text-align: center;
 }
 
+/* Log In */
+
+.forms {
+	text-align: center;
+}
+
 #username, #password {
 	padding: 10px;
 	border-radius: 10px;
+	border-radius: transparent;
+}
+
+#username:visited {
+	background-color: red;
 }
 
 /* Icon */
